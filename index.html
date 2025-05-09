@@ -12,7 +12,12 @@
             font-family: 'Arial', sans-serif;
         }
         .navbar {
-            background-color: #1a202c; /* Fixed black background */
+            background-color: #1a202c;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000; /* Increased from default */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added shadow */
         }
         .card {
             transition: transform 0.3s;
